@@ -161,7 +161,8 @@ if(i%8==0)m++
             case 3: n = 4; r = 8;  randomi(n, r, arrBtn); break;
             case 4: n = 5; r = 13; randomi(n, r, arrBtn); break;
             case 5: start.innerHTML=`<audio  autoplay src="c.mp3"></audio>`;
-                   window.location.href="../next/next1.html";
+                    alert("כל הכבוד! סיימת את שלב זה!")
+
                      break;
 
         }
