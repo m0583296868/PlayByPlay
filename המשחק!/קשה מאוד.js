@@ -180,7 +180,8 @@ if(i%12==0)m++
             case 3: n = 1; r = 18;  randomi(n, r, arrBtn); break;
             case 4: n = 1; r = 25; randomi(n, r, arrBtn); break;
             case 5: start.innerHTML=`<audio  autoplay src="c.mp3"></audio>`;
-                   window.location.href="../next/next4.html";
+                  alert("כל הכבוד! סיימת את שלב זה!")
+
                      break;
 
         }
